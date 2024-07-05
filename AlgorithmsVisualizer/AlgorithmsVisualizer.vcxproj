@@ -22,7 +22,7 @@
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
     <ProjectGuid>{6d15bc1d-d8d3-4033-a613-56498912a73a}</ProjectGuid>
-    <RootNamespace>cautrucroirac</RootNamespace>
+    <RootNamespace>AlgorithmsVisualizer</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
     <ProjectName>AlgorithmsVisualizer</ProjectName>
   </PropertyGroup>
