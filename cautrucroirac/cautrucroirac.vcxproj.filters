@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>ttf;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Visualizer">
+      <UniqueIdentifier>{4142af62-a911-490b-8d6e-bf6546b2bfaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\imgui">
+      <UniqueIdentifier>{3d9d167c-c13b-4dd0-9e9d-99d659988670}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ImGuiFileDialog">
+      <UniqueIdentifier>{aa29eba7-8ce4-4590-b8c0-812818d87127}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\imgui\cpp">
+      <UniqueIdentifier>{b7e8bf41-bc0d-4973-8e73-4bce12f8fa78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\raylib">
+      <UniqueIdentifier>{bf2f5e6d-4f18-4446-bb34-354f787cc44a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\rlImGui">
+      <UniqueIdentifier>{ea5a83f6-9957-46df-b33d-1cf671077873}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\rlImGui\cpp">
+      <UniqueIdentifier>{bca3ef68-85cd-4fc1-b1e2-7ea155f9b294}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\dirent">
+      <UniqueIdentifier>{a20d15c2-9af0-4a26-81dd-41083d59886c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Visualizer\CompressedFont">
+      <UniqueIdentifier>{8571b6da-e9f8-4a12-ba8d-bbb595957c63}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>Header Files\imgui\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_demo.cpp">
+      <Filter>Header Files\imgui\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>Header Files\imgui\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_tables.cpp">
+      <Filter>Header Files\imgui\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_widgets.cpp">
+      <Filter>Header Files\imgui\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGuiFileDialog\ImGuiFileDialog.cpp">
+      <Filter>Header Files\ImGuiFileDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="rlImGui\rlImGui.cpp">
+      <Filter>Header Files\rlImGui\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Visualizer\CompressedFont\tahoma.cpp">
+      <Filter>Header Files\Visualizer\CompressedFont</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Visualizer\LUI.h">
+      <Filter>Header Files\Visualizer</Filter>
+    </ClInclude>
+    <ClInclude Include="Visualizer\Player.h">
+      <Filter>Header Files\Visualizer</Filter>
+    </ClInclude>
+    <ClInclude Include="Visualizer\Randomize.h">
+      <Filter>Header Files\Visualizer</Filter>
+    </ClInclude>
+    <ClInclude Include="Visualizer\Algorithms.h">
+      <Filter>Header Files\Visualizer</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_rectpack.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_textedit.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_truetype.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGuiFileDialog\ImGuiFileDialog.h">
+      <Filter>Header Files\ImGuiFileDialog</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGuiFileDialog\ImGuiFileDialogConfig.h">
+      <Filter>Header Files\ImGuiFileDialog</Filter>
+    </ClInclude>
+    <ClInclude Include="raylib\include\rlgl.h">
+      <Filter>Header Files\raylib</Filter>
+    </ClInclude>
+    <ClInclude Include="raylib\include\raylib.h">
+      <Filter>Header Files\raylib</Filter>
+    </ClInclude>
+    <ClInclude Include="raylib\include\raymath.h">
+      <Filter>Header Files\raylib</Filter>
+    </ClInclude>
+    <ClInclude Include="rlImGui\rlImGuiColors.h">
+      <Filter>Header Files\rlImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="rlImGui\FA6FreeSolidFontData.h">
+      <Filter>Header Files\rlImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="rlImGui\IconsFontAwesome6.h">
+      <Filter>Header Files\rlImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="rlImGui\rlImGui.h">
+      <Filter>Header Files\rlImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="dirent\dirent.h">
+      <Filter>Header Files\dirent</Filter>
+    </ClInclude>
+    <ClInclude Include="Visualizer\Visualizer.h">
+      <Filter>Header Files\Visualizer</Filter>
+    </ClInclude>
+    <ClInclude Include="rlImGui\imgui_impl_raylib.h">
+      <Filter>Header Files\rlImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Visualizer\CompressedFont\PTSans_Bold.cpp">
+      <Filter>Header Files\Visualizer\CompressedFont</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
+  </ItemGroup>
+</Project>
