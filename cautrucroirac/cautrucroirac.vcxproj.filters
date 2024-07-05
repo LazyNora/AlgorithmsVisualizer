@@ -141,7 +141,4 @@
       <Filter>Header Files\Visualizer\CompressedFont</Filter>
     </ClInclude>
   </ItemGroup>
-  <ItemGroup>
-    <None Include="README.md" />
-  </ItemGroup>
 </Project>
