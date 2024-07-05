@@ -24,6 +24,7 @@
     <ProjectGuid>{6d15bc1d-d8d3-4033-a613-56498912a73a}</ProjectGuid>
     <RootNamespace>cautrucroirac</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>AlgorithmsVisualizer</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
